@@ -1,0 +1,8 @@
+{
+  "name": "Meme Coin Trading Bot",
+  "description": "5-bot autonomous Solana meme coin trading bot with real-time 8-layer security audits, market regime protection, live click-lane monitor, and PAPER-to-LIVE workflow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

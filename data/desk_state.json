@@ -1,0 +1,1459 @@
+{
+  "schemaVersion": 3,
+  "state": {
+    "mode": "PAPER",
+    "paperNightsCompleted": 3,
+    "acceptancePassed": true,
+    "cashUsd": 235,
+    "startEquityUsd": 250,
+    "totalEquityUsd": 249.78,
+    "todayPnlUsd": -0.22,
+    "todayPnlPct": -0.09,
+    "multiplier": 1,
+    "regime": {
+      "mode": "RED",
+      "override": "AUTO",
+      "btcPrice": 60975,
+      "btc1hPct": 0,
+      "btc24hPct": 3.24,
+      "solPrice": 71.31,
+      "sol1hPct": 0,
+      "sol24hPct": 4.09,
+      "fearGreed": 11,
+      "fearGreedLabel": "Extreme Fear",
+      "solanaDexVol24hUsd": 1470355124,
+      "solanaDexChange1d": 0.9,
+      "pumpSwapVol24hUsd": 102420932,
+      "graduationsLastHour": 24,
+      "stopsInARow": 0,
+      "reason": "Fear & Greed 11 (<= 20) · half size, 1.5x take, 20% trail",
+      "updatedAt": 1795671060928,
+      "sourceLive": true
+    },
+    "bots": [
+      {
+        "id": "scanner",
+        "name": "Scanner",
+        "color": "#64d2ff",
+        "paused": false,
+        "locked": false,
+        "statusLine": "6 live pools · 3 passed 8/8",
+        "countToday": 6,
+        "countLabel": "pools",
+        "heartbeatTs": 1795671078930,
+        "metrics": [
+          {
+            "label": "Source",
+            "value": "Live API"
+          },
+          {
+            "label": "Min Liq",
+            "value": "$20K"
+          }
+        ],
+        "recentDecisions": [
+          {
+            "id": "sc_ed4766ad",
+            "ts": 1795671062498,
+            "symbol": "4CHAN",
+            "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+            "verdict": "pass",
+            "detail": "Passed all Scanner thresholds · liq $29.8K",
+            "fomoUrl": "https://fomo.family/coin?address=DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "sc_ef328d08",
+            "ts": 1795671062498,
+            "symbol": "ANSEM",
+            "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "verdict": "pass",
+            "detail": "Passed all Scanner thresholds · liq $789.6K",
+            "fomoUrl": "https://fomo.family/coin?address=9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "sc_066d717a",
+            "ts": 1795671062498,
+            "symbol": "Pompom",
+            "mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+            "verdict": "pass",
+            "detail": "Passed all Scanner thresholds · liq $30.1K",
+            "fomoUrl": "https://fomo.family/coin?address=5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "sc_24b7c600",
+            "ts": 1795671062498,
+            "symbol": "BP",
+            "mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+            "verdict": "pass",
+            "detail": "Passed all Scanner thresholds · liq $2.31M",
+            "fomoUrl": "https://fomo.family/coin?address=BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "sc_7f671cf4",
+            "ts": 1795671062498,
+            "symbol": "BASKET",
+            "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+            "verdict": "pass",
+            "detail": "Passed all Scanner thresholds · liq $123.6K",
+            "fomoUrl": "https://fomo.family/coin?address=3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "sc_70659085",
+            "ts": 1795671062498,
+            "symbol": "JIMMY",
+            "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+            "verdict": "pass",
+            "detail": "Passed all Scanner thresholds · liq $80.2K",
+            "fomoUrl": "https://fomo.family/coin?address=38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump&chainId=1399811149&r=savipww&source=share_link"
+          }
+        ]
+      },
+      {
+        "id": "analyst",
+        "name": "Analyst",
+        "color": "#ffd60a",
+        "paused": false,
+        "locked": false,
+        "statusLine": "6 live audited · 4CHAN 8/8 (85)",
+        "countToday": 6,
+        "countLabel": "audited",
+        "heartbeatTs": 1795671078930,
+        "metrics": [
+          {
+            "label": "RugCheck",
+            "value": "Live 8-Layer"
+          },
+          {
+            "label": "Min Score",
+            "value": "70"
+          }
+        ],
+        "recentDecisions": [
+          {
+            "id": "an_fb350362",
+            "ts": 1795671062498,
+            "symbol": "4CHAN",
+            "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+            "verdict": "pass",
+            "detail": "8/8 green · score 85",
+            "fomoUrl": "https://fomo.family/coin?address=DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "an_570e322e",
+            "ts": 1795671062498,
+            "symbol": "ANSEM",
+            "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "verdict": "kill",
+            "detail": "Layer 3 red: Single holder ownership",
+            "fomoUrl": "https://fomo.family/coin?address=9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "an_a1d38d9e",
+            "ts": 1795671062498,
+            "symbol": "Pompom",
+            "mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+            "verdict": "pass",
+            "detail": "8/8 green · score 86",
+            "fomoUrl": "https://fomo.family/coin?address=5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "an_1e6a8819",
+            "ts": 1795671062498,
+            "symbol": "BP",
+            "mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+            "verdict": "kill",
+            "detail": "Layer 1 red: mint not revoked",
+            "fomoUrl": "https://fomo.family/coin?address=BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "an_93a92ad8",
+            "ts": 1795671062498,
+            "symbol": "BASKET",
+            "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+            "verdict": "kill",
+            "detail": "Layer 7 red: linked wallets hold 15.8% (>15%)",
+            "fomoUrl": "https://fomo.family/coin?address=3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f&chainId=1399811149&r=savipww&source=share_link"
+          },
+          {
+            "id": "an_5a74c8f0",
+            "ts": 1795671062498,
+            "symbol": "JIMMY",
+            "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+            "verdict": "pass",
+            "detail": "8/8 green · score 99",
+            "fomoUrl": "https://fomo.family/coin?address=38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump&chainId=1399811149&r=savipww&source=share_link"
+          }
+        ]
+      },
+      {
+        "id": "brain",
+        "name": "Brain",
+        "color": "#bf5af2",
+        "paused": false,
+        "locked": false,
+        "statusLine": "Cleared JIMMY (score 99) -> Executor",
+        "countToday": 1,
+        "countLabel": "sized",
+        "heartbeatTs": 1795671078930,
+        "metrics": [
+          {
+            "label": "Risk Cap",
+            "value": "3% / trade"
+          },
+          {
+            "label": "Ticket Cap",
+            "value": "$25"
+          }
+        ],
+        "recentDecisions": [
+          {
+            "id": "br_e798341a",
+            "ts": 1795671062498,
+            "symbol": "JIMMY",
+            "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+            "verdict": "pass",
+            "detail": "STRAT dip (RED) · score 99 -> Executor",
+            "fomoUrl": "https://fomo.family/coin?address=38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump&chainId=1399811149&r=savipww&source=share_link"
+          }
+        ]
+      },
+      {
+        "id": "executor",
+        "name": "Executor",
+        "color": "#00d35a",
+        "paused": false,
+        "locked": false,
+        "statusLine": "✓ Bought JIMMY · verified (PAPER)",
+        "countToday": 1,
+        "countLabel": "trades",
+        "heartbeatTs": 1795671078930,
+        "metrics": [
+          {
+            "label": "Take",
+            "value": "2x"
+          },
+          {
+            "label": "Lane",
+            "value": "Ready"
+          }
+        ],
+        "recentDecisions": [
+          {
+            "id": "ex_96a5dd56",
+            "ts": 1795671063420,
+            "symbol": "JIMMY",
+            "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+            "verdict": "buy",
+            "detail": "PAPER Buy $15.00 @ $0.0008131 · live DexScreener fill",
+            "fomoUrl": "https://fomo.family/coin?address=38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump&chainId=1399811149&r=savipww&source=share_link"
+          }
+        ]
+      },
+      {
+        "id": "risk",
+        "name": "Risk",
+        "color": "#ff6b9a",
+        "paused": false,
+        "locked": true,
+        "statusLine": "Guarding 1 live open · stop -25% · trail 20%",
+        "countToday": 0,
+        "countLabel": "stops",
+        "heartbeatTs": 1795671078930,
+        "metrics": [
+          {
+            "label": "Hard Stop",
+            "value": "-25%",
+            "tone": "red"
+          },
+          {
+            "label": "Trail",
+            "value": "40%",
+            "tone": "green"
+          }
+        ],
+        "recentDecisions": []
+      }
+    ],
+    "positions": [
+      {
+        "id": "pos_ab5c0ad8",
+        "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+        "symbol": "JIMMY",
+        "name": "Jimmy Rustles",
+        "pool": "FnHWfV...P1gQ",
+        "strat": "dip",
+        "openedAt": 1795671063420,
+        "entryPrice": 0.0008131,
+        "currentPrice": 0.0008173,
+        "peakPrice": 0.0008173,
+        "sizeUsd": 15,
+        "remainingUsd": 14.78,
+        "tokens": 18078.957077850202,
+        "stopPrice": 0.000609825,
+        "takeProfitPrice": 0.00121965,
+        "trailPct": 20,
+        "tpDone": false,
+        "trailActive": false,
+        "pnlUsd": -0.82,
+        "pnlPct": 0.52,
+        "feesUsd": 0.3,
+        "mode": "PAPER",
+        "score": 99,
+        "layersPassed": 8,
+        "liquidityUsd": 80367,
+        "marketCapUsd": 763248,
+        "holders": 12934,
+        "ageMin": 3380,
+        "fomoUrl": "https://fomo.family/coin?address=38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump&chainId=1399811149&r=savipww&source=share_link",
+        "candles": [
+          {
+            "ts": 1795671063418,
+            "open": 0.0008131,
+            "high": 0.0008173,
+            "low": 0.0008131,
+            "close": 0.0008173,
+            "volume": 0
+          }
+        ]
+      }
+    ],
+    "closedTrades": [],
+    "auditedCoins": [
+      {
+        "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+        "symbol": "4CHAN",
+        "name": "4CHAN",
+        "pool": "Ak4wr2...1e6H",
+        "createdAt": 1795557652000,
+        "ageMin": 1890,
+        "priceUsd": 0.0001268,
+        "liquidityUsd": 29817,
+        "marketCapUsd": 120376,
+        "volume1hUsd": 10377,
+        "volume24hUsd": 1653697,
+        "h1ChangePct": 4.3,
+        "h24ChangePct": -85.2,
+        "buys5m": 30,
+        "sells5m": 7,
+        "uniqueBuys1h": 192,
+        "holders": 12319,
+        "holdersGrowthPct": 5,
+        "top10Pct": 13.2,
+        "curveMin": 15,
+        "creator": "98UP...T5Qm",
+        "isCopy": false,
+        "scannerVerdict": "pass",
+        "scannerReason": "Passed all Scanner thresholds",
+        "layers": [
+          {
+            "n": 1,
+            "name": "Mint authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 2,
+            "name": "Freeze authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 3,
+            "name": "Dev wallet",
+            "pass": true,
+            "value": "Clean · 0 danger flags",
+            "source": "RugCheck"
+          },
+          {
+            "n": 4,
+            "name": "Top 10 holders",
+            "pass": true,
+            "value": "13.2%",
+            "source": "RugCheck"
+          },
+          {
+            "n": 5,
+            "name": "Liquidity",
+            "pass": true,
+            "value": "100.0% locked · $29.8K",
+            "source": "RugCheck + DexScreener"
+          },
+          {
+            "n": 6,
+            "name": "Pool age",
+            "pass": true,
+            "value": "32h",
+            "source": "DexScreener"
+          },
+          {
+            "n": 7,
+            "name": "Bundles & Insiders",
+            "pass": true,
+            "value": "12.7% linked supply · 0 flagged",
+            "source": "RugCheck"
+          },
+          {
+            "n": 8,
+            "name": "Delegations",
+            "pass": true,
+            "value": "None",
+            "source": "RugCheck / RPC"
+          }
+        ],
+        "layersPassed": 8,
+        "score": {
+          "alive": 0.42,
+          "organic": 1,
+          "flush": 1,
+          "chase": 0.02,
+          "social": null,
+          "socialPts": 0,
+          "total": 85,
+          "u15": 38,
+          "u60": 192,
+          "smartHolders": 2,
+          "shillRatio": 0.1,
+          "catalyst": "Live Solana on-chain market feed"
+        },
+        "analystPassed": true,
+        "analystReason": "8/8 green · score 85",
+        "bullLine": "Live 8/8 RugCheck pass · $29.8K liq · $10.4K 1h vol · 30 buys / 7 sells (5m).",
+        "bearLine": "Enforcing -25% hard stop on live DexScreener ticks (RED regime).",
+        "strat": "dip",
+        "fomoUrl": "https://fomo.family/coin?address=DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump&chainId=1399811149&r=savipww&source=share_link",
+        "scannedAt": 1795671065440,
+        "source": "live",
+        "candles": [
+          {
+            "ts": 1795671065440,
+            "open": 0.0001268,
+            "high": 0.0001268,
+            "low": 0.0001268,
+            "close": 0.0001268,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "pool": "FnzKY6...L3CC",
+        "createdAt": 1781643948000,
+        "ageMin": 233785,
+        "priceUsd": 0.02031,
+        "liquidityUsd": 789608,
+        "marketCapUsd": 20256821,
+        "volume1hUsd": 5839,
+        "volume24hUsd": 1248796,
+        "h1ChangePct": -1.9,
+        "h24ChangePct": -10.6,
+        "buys5m": 2,
+        "sells5m": 4,
+        "uniqueBuys1h": 39,
+        "holders": 390102,
+        "holdersGrowthPct": -1.6,
+        "top10Pct": 9.2,
+        "curveMin": 15,
+        "creator": "9ENS...G1jr",
+        "isCopy": false,
+        "scannerVerdict": "pass",
+        "scannerReason": "Passed all Scanner thresholds",
+        "layers": [
+          {
+            "n": 1,
+            "name": "Mint authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 2,
+            "name": "Freeze authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 3,
+            "name": "Dev wallet",
+            "pass": false,
+            "value": "Single holder ownership",
+            "source": "RugCheck",
+            "reason": "Single holder ownership"
+          },
+          {
+            "n": 4,
+            "name": "Top 10 holders",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 5,
+            "name": "Liquidity",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck + DexScreener"
+          },
+          {
+            "n": 6,
+            "name": "Pool age",
+            "pass": null,
+            "value": "Not checked",
+            "source": "DexScreener"
+          },
+          {
+            "n": 7,
+            "name": "Bundles & Insiders",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 8,
+            "name": "Delegations",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck / RPC"
+          }
+        ],
+        "layersPassed": 2,
+        "score": {
+          "alive": 0.23,
+          "organic": 0.39,
+          "flush": 0,
+          "chase": 0,
+          "social": null,
+          "socialPts": 0,
+          "total": 41,
+          "u15": 8,
+          "u60": 39,
+          "smartHolders": 0,
+          "shillRatio": 0.1,
+          "catalyst": "Live Solana on-chain market feed"
+        },
+        "analystPassed": false,
+        "analystReason": "Layer 3 red: Single holder ownership",
+        "bullLine": "Live pool: $789.6K liq, $1.25M 24h vol.",
+        "bearLine": "Blocked: Layer 3 red: Single holder ownership.",
+        "strat": null,
+        "fomoUrl": "https://fomo.family/coin?address=9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump&chainId=1399811149&r=savipww&source=share_link",
+        "scannedAt": 1795671065156,
+        "source": "live",
+        "candles": [
+          {
+            "ts": 1795671065156,
+            "open": 0.02031,
+            "high": 0.02031,
+            "low": 0.02031,
+            "close": 0.02031,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+        "symbol": "Pompom",
+        "name": "Pompompurin",
+        "pool": "7kNYdY...tGso",
+        "createdAt": 1795605404000,
+        "ageMin": 1094,
+        "priceUsd": 0.0001347,
+        "liquidityUsd": 30087,
+        "marketCapUsd": 131465,
+        "volume1hUsd": 10628,
+        "volume24hUsd": 3514537,
+        "h1ChangePct": 0.7,
+        "h24ChangePct": 396,
+        "buys5m": 19,
+        "sells5m": 7,
+        "uniqueBuys1h": 233,
+        "holders": 9439,
+        "holdersGrowthPct": 3.7,
+        "top10Pct": 13.1,
+        "curveMin": 15,
+        "creator": "6hKW...yEY1",
+        "isCopy": false,
+        "scannerVerdict": "pass",
+        "scannerReason": "Passed all Scanner thresholds",
+        "layers": [
+          {
+            "n": 1,
+            "name": "Mint authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 2,
+            "name": "Freeze authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 3,
+            "name": "Dev wallet",
+            "pass": true,
+            "value": "Clean · 0 danger flags",
+            "source": "RugCheck"
+          },
+          {
+            "n": 4,
+            "name": "Top 10 holders",
+            "pass": true,
+            "value": "13.1%",
+            "source": "RugCheck"
+          },
+          {
+            "n": 5,
+            "name": "Liquidity",
+            "pass": true,
+            "value": "100.0% locked · $30.1K",
+            "source": "RugCheck + DexScreener"
+          },
+          {
+            "n": 6,
+            "name": "Pool age",
+            "pass": true,
+            "value": "18h",
+            "source": "DexScreener"
+          },
+          {
+            "n": 7,
+            "name": "Bundles & Insiders",
+            "pass": true,
+            "value": "4.9% linked supply · 0 flagged",
+            "source": "RugCheck"
+          },
+          {
+            "n": 8,
+            "name": "Delegations",
+            "pass": true,
+            "value": "None",
+            "source": "RugCheck / RPC"
+          }
+        ],
+        "layersPassed": 8,
+        "score": {
+          "alive": 0.43,
+          "organic": 1,
+          "flush": 1,
+          "chase": 0,
+          "social": null,
+          "socialPts": 0,
+          "total": 86,
+          "u15": 47,
+          "u60": 233,
+          "smartHolders": 2,
+          "shillRatio": 0.1,
+          "catalyst": "Live Solana on-chain market feed"
+        },
+        "analystPassed": true,
+        "analystReason": "8/8 green · score 86",
+        "bullLine": "Live 8/8 RugCheck pass · $30.1K liq · $10.6K 1h vol · 19 buys / 7 sells (5m).",
+        "bearLine": "Enforcing -25% hard stop on live DexScreener ticks (RED regime).",
+        "strat": "wave",
+        "fomoUrl": "https://fomo.family/coin?address=5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump&chainId=1399811149&r=savipww&source=share_link",
+        "scannedAt": 1795671064307,
+        "source": "live",
+        "candles": [
+          {
+            "ts": 1795671064307,
+            "open": 0.0001347,
+            "high": 0.0001347,
+            "low": 0.0001347,
+            "close": 0.0001347,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+        "symbol": "BP",
+        "name": "Backpack",
+        "pool": "6qz7TH...wfjd",
+        "createdAt": 1774269669000,
+        "ageMin": 356690,
+        "priceUsd": 0.8461,
+        "liquidityUsd": 2306431,
+        "marketCapUsd": 211531266,
+        "volume1hUsd": 11289,
+        "volume24hUsd": 521739,
+        "h1ChangePct": -1,
+        "h24ChangePct": 5.6,
+        "buys5m": 0,
+        "sells5m": 1,
+        "uniqueBuys1h": 5,
+        "holders": 81869,
+        "holdersGrowthPct": -0.8,
+        "top10Pct": 21.2,
+        "curveMin": 15,
+        "creator": "9WuL...J8tn",
+        "isCopy": false,
+        "scannerVerdict": "pass",
+        "scannerReason": "Passed all Scanner thresholds",
+        "layers": [
+          {
+            "n": 1,
+            "name": "Mint authority",
+            "pass": false,
+            "value": "Active",
+            "source": "RugCheck",
+            "reason": "mint not revoked"
+          },
+          {
+            "n": 2,
+            "name": "Freeze authority",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 3,
+            "name": "Dev wallet",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 4,
+            "name": "Top 10 holders",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 5,
+            "name": "Liquidity",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck + DexScreener"
+          },
+          {
+            "n": 6,
+            "name": "Pool age",
+            "pass": null,
+            "value": "Not checked",
+            "source": "DexScreener"
+          },
+          {
+            "n": 7,
+            "name": "Bundles & Insiders",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 8,
+            "name": "Delegations",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck / RPC"
+          }
+        ],
+        "layersPassed": 0,
+        "score": {
+          "alive": 0.45,
+          "organic": 0.05,
+          "flush": 0,
+          "chase": 0,
+          "social": null,
+          "socialPts": 0,
+          "total": 38,
+          "u15": 1,
+          "u60": 5,
+          "smartHolders": 0,
+          "shillRatio": 0.1,
+          "catalyst": "Live Solana on-chain market feed"
+        },
+        "analystPassed": false,
+        "analystReason": "Layer 1 red: mint not revoked",
+        "bullLine": "Live pool: $2.31M liq, $521.7K 24h vol.",
+        "bearLine": "Blocked: Layer 1 red: mint not revoked.",
+        "strat": null,
+        "fomoUrl": "https://fomo.family/coin?address=BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy&chainId=1399811149&r=savipww&source=share_link",
+        "scannedAt": 1795671064022,
+        "source": "live",
+        "candles": [
+          {
+            "ts": 1795671064022,
+            "open": 0.8461,
+            "high": 0.8461,
+            "low": 0.8461,
+            "close": 0.8461,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+        "symbol": "BASKET",
+        "name": "Basket",
+        "pool": "Cixcof...pqtX",
+        "createdAt": 1795581782000,
+        "ageMin": 1488,
+        "priceUsd": 0.0007369,
+        "liquidityUsd": 123645,
+        "marketCapUsd": 736997,
+        "volume1hUsd": 26563,
+        "volume24hUsd": 4539577,
+        "h1ChangePct": 15.4,
+        "h24ChangePct": 266,
+        "buys5m": 25,
+        "sells5m": 22,
+        "uniqueBuys1h": 218,
+        "holders": 10836,
+        "holdersGrowthPct": 0.5,
+        "top10Pct": 12.5,
+        "curveMin": 15,
+        "creator": "WLHv...JVVh",
+        "isCopy": false,
+        "scannerVerdict": "pass",
+        "scannerReason": "Passed all Scanner thresholds",
+        "layers": [
+          {
+            "n": 1,
+            "name": "Mint authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 2,
+            "name": "Freeze authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 3,
+            "name": "Dev wallet",
+            "pass": true,
+            "value": "Clean · 0 danger flags",
+            "source": "RugCheck"
+          },
+          {
+            "n": 4,
+            "name": "Top 10 holders",
+            "pass": true,
+            "value": "12.5%",
+            "source": "RugCheck"
+          },
+          {
+            "n": 5,
+            "name": "Liquidity",
+            "pass": true,
+            "value": "100.0% locked · $123.6K",
+            "source": "RugCheck + DexScreener"
+          },
+          {
+            "n": 6,
+            "name": "Pool age",
+            "pass": true,
+            "value": "25h",
+            "source": "DexScreener"
+          },
+          {
+            "n": 7,
+            "name": "Bundles & Insiders",
+            "pass": false,
+            "value": "15.8% linked supply · 0 flagged",
+            "source": "RugCheck",
+            "reason": "linked wallets hold 15.8% (>15%)"
+          },
+          {
+            "n": 8,
+            "name": "Delegations",
+            "pass": null,
+            "value": "Not checked",
+            "source": "RugCheck / RPC"
+          }
+        ],
+        "layersPassed": 6,
+        "score": {
+          "alive": 1,
+          "organic": 1,
+          "flush": 1,
+          "chase": 0.08,
+          "social": null,
+          "socialPts": 0,
+          "total": 98,
+          "u15": 44,
+          "u60": 218,
+          "smartHolders": 2,
+          "shillRatio": 0.1,
+          "catalyst": "Live Solana on-chain market feed"
+        },
+        "analystPassed": false,
+        "analystReason": "Layer 7 red: linked wallets hold 15.8% (>15%)",
+        "bullLine": "Live pool: $123.6K liq, $4.54M 24h vol.",
+        "bearLine": "Blocked: Layer 7 red: linked wallets hold 15.8% (>15%).",
+        "strat": null,
+        "fomoUrl": "https://fomo.family/coin?address=3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f&chainId=1399811149&r=savipww&source=share_link",
+        "scannedAt": 1795671063730,
+        "source": "live",
+        "candles": [
+          {
+            "ts": 1795671063730,
+            "open": 0.0007369,
+            "high": 0.0007369,
+            "low": 0.0007369,
+            "close": 0.0007369,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+        "symbol": "JIMMY",
+        "name": "Jimmy Rustles",
+        "pool": "FnHWfV...P1gQ",
+        "createdAt": 1795468271000,
+        "ageMin": 3380,
+        "priceUsd": 0.0008131,
+        "liquidityUsd": 80157,
+        "marketCapUsd": 759344,
+        "volume1hUsd": 32125,
+        "volume24hUsd": 2280757,
+        "h1ChangePct": 8.4,
+        "h24ChangePct": -50.8,
+        "buys5m": 17,
+        "sells5m": 12,
+        "uniqueBuys1h": 355,
+        "holders": 12934,
+        "holdersGrowthPct": 1.4,
+        "top10Pct": 16.4,
+        "curveMin": 15,
+        "creator": "PW7A...a6zU",
+        "isCopy": false,
+        "scannerVerdict": "pass",
+        "scannerReason": "Passed all Scanner thresholds",
+        "layers": [
+          {
+            "n": 1,
+            "name": "Mint authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 2,
+            "name": "Freeze authority",
+            "pass": true,
+            "value": "Revoked",
+            "source": "RugCheck"
+          },
+          {
+            "n": 3,
+            "name": "Dev wallet",
+            "pass": true,
+            "value": "Clean · 0 danger flags",
+            "source": "RugCheck"
+          },
+          {
+            "n": 4,
+            "name": "Top 10 holders",
+            "pass": true,
+            "value": "16.4%",
+            "source": "RugCheck"
+          },
+          {
+            "n": 5,
+            "name": "Liquidity",
+            "pass": true,
+            "value": "100.0% locked · $80.2K",
+            "source": "RugCheck + DexScreener"
+          },
+          {
+            "n": 6,
+            "name": "Pool age",
+            "pass": true,
+            "value": "56h",
+            "source": "DexScreener"
+          },
+          {
+            "n": 7,
+            "name": "Bundles & Insiders",
+            "pass": true,
+            "value": "6.2% linked supply · 0 flagged",
+            "source": "RugCheck"
+          },
+          {
+            "n": 8,
+            "name": "Delegations",
+            "pass": true,
+            "value": "None",
+            "source": "RugCheck / RPC"
+          }
+        ],
+        "layersPassed": 8,
+        "score": {
+          "alive": 1,
+          "organic": 1,
+          "flush": 1,
+          "chase": 0.04,
+          "social": null,
+          "socialPts": 0,
+          "total": 99,
+          "u15": 71,
+          "u60": 355,
+          "smartHolders": 2,
+          "shillRatio": 0.1,
+          "catalyst": "Live Solana on-chain market feed"
+        },
+        "analystPassed": true,
+        "analystReason": "8/8 green · score 99",
+        "bullLine": "Live 8/8 RugCheck pass · $80.2K liq · $32.1K 1h vol · 17 buys / 12 sells (5m).",
+        "bearLine": "Enforcing -25% hard stop on live DexScreener ticks (RED regime).",
+        "strat": "dip",
+        "fomoUrl": "https://fomo.family/coin?address=38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump&chainId=1399811149&r=savipww&source=share_link",
+        "scannedAt": 1795671063419,
+        "source": "live",
+        "candles": [
+          {
+            "ts": 1795671063418,
+            "open": 0.0008131,
+            "high": 0.0008173,
+            "low": 0.0008131,
+            "close": 0.0008173,
+            "volume": 0
+          }
+        ]
+      }
+    ],
+    "activity": [
+      {
+        "id": "act_a2187bcc",
+        "ts": 1795671062498,
+        "kind": "rejected",
+        "mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+        "symbol": "ANSEM",
+        "bot": "analyst",
+        "title": "Rejected ANSEM",
+        "subtitle": "Analyst · Layer 3 red: Single holder ownership",
+        "value": "2/8",
+        "valueTone": "neutral",
+        "fomoUrl": "https://fomo.family/coin?address=9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump&chainId=1399811149&r=savipww&source=share_link"
+      },
+      {
+        "id": "act_2e91b99b",
+        "ts": 1795671062498,
+        "kind": "rejected",
+        "mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
+        "symbol": "BP",
+        "bot": "analyst",
+        "title": "Rejected BP",
+        "subtitle": "Analyst · Layer 1 red: mint not revoked",
+        "value": "0/8",
+        "valueTone": "neutral",
+        "fomoUrl": "https://fomo.family/coin?address=BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy&chainId=1399811149&r=savipww&source=share_link"
+      },
+      {
+        "id": "act_69bd277a",
+        "ts": 1795671062498,
+        "kind": "rejected",
+        "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+        "symbol": "BASKET",
+        "bot": "analyst",
+        "title": "Rejected BASKET",
+        "subtitle": "Analyst · Layer 7 red: linked wallets hold 15.8% (>15%)",
+        "value": "6/8",
+        "valueTone": "neutral",
+        "fomoUrl": "https://fomo.family/coin?address=3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f&chainId=1399811149&r=savipww&source=share_link"
+      },
+      {
+        "id": "act_3c852701",
+        "ts": 1795671063420,
+        "kind": "bought",
+        "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+        "symbol": "JIMMY",
+        "bot": "executor",
+        "title": "Bought JIMMY",
+        "subtitle": "PAPER · Executor · STRAT dip · 6.0% of cash",
+        "value": "$15.00",
+        "valueTone": "neutral",
+        "fomoUrl": "https://fomo.family/coin?address=38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump&chainId=1399811149&r=savipww&source=share_link",
+        "checks": {
+          "screen": true,
+          "api": "paper",
+          "chain": "paper"
+        }
+      }
+    ],
+    "lessons": [
+      {
+        "tag": "grad_thin_sellers",
+        "ts": 1795663860926,
+        "symbol": "Perro Coin",
+        "strat": "grad",
+        "lossUsd": 4.49,
+        "field": "top10_pct",
+        "op": ">",
+        "value": 25,
+        "summary": "Block entries when top 10 holders exceed 25% of supply.",
+        "timesHit": 0,
+        "savedUsd": 0,
+        "missedUsd": 0,
+        "status": "active"
+      },
+      {
+        "tag": "insider_cluster_fade",
+        "ts": 1795656660926,
+        "symbol": "GROKIA",
+        "strat": "news",
+        "lossUsd": 3.8,
+        "field": "insiders_pct",
+        "op": ">",
+        "value": 15,
+        "summary": "Block tokens where linked insider clusters exceed 15% of supply.",
+        "timesHit": 0,
+        "savedUsd": 0,
+        "missedUsd": 0,
+        "status": "active"
+      }
+    ],
+    "copyTraders": [
+      {
+        "id": "trader_1",
+        "rank": 1,
+        "handle": "sol_velvet",
+        "pnl7d": 14820,
+        "pnl30d": 48310,
+        "trades": 46,
+        "lastTradeAgo": "2h ago",
+        "lastBuySymbol": "SOL",
+        "lastBuyMint": "So11111111111111111111111111111111111111112",
+        "lastBuyMcap": "Live",
+        "why": "Green on 7d and 30d, 14 coins in last 25 swaps, sells in parts",
+        "copyOn": false,
+        "lossStreak": 0,
+        "profileUrl": "https://fomo.family/profile/sol_velvet?source=share_link&r=savipww",
+        "lastBuyUrl": "https://fomo.family/coin?address=So11111111111111111111111111111111111111112&chainId=1399811149&r=savipww&source=share_link"
+      },
+      {
+        "id": "trader_2",
+        "rank": 2,
+        "handle": "kuro_pumpswap",
+        "pnl7d": 9440,
+        "pnl30d": 31700,
+        "trades": 62,
+        "lastTradeAgo": "54m ago",
+        "lastBuySymbol": "SOL",
+        "lastBuyMint": "So11111111111111111111111111111111111111112",
+        "lastBuyMcap": "Live",
+        "why": "Green on 7d and 30d, 18 coins in last 25 swaps, avg 3.4 exits/coin",
+        "copyOn": false,
+        "lossStreak": 0,
+        "profileUrl": "https://fomo.family/profile/kuro_pumpswap?source=share_link&r=savipww",
+        "lastBuyUrl": "https://fomo.family/coin?address=So11111111111111111111111111111111111111112&chainId=1399811149&r=savipww&source=share_link"
+      }
+    ],
+    "metaThemes": [
+      {
+        "keyword": "JIMMY",
+        "pools7d": 1,
+        "copiesCount": 0,
+        "volume24hUsd": 2280757,
+        "leadSymbol": "JIMMY",
+        "leadChange24h": -50.8,
+        "status": "dead",
+        "asOf": "Live GeckoTerminal"
+      },
+      {
+        "keyword": "BASKET",
+        "pools7d": 1,
+        "copiesCount": 0,
+        "volume24hUsd": 4539577,
+        "leadSymbol": "BASKET",
+        "leadChange24h": 266,
+        "status": "hot",
+        "asOf": "Live GeckoTerminal"
+      },
+      {
+        "keyword": "BP",
+        "pools7d": 1,
+        "copiesCount": 0,
+        "volume24hUsd": 521739,
+        "leadSymbol": "BP",
+        "leadChange24h": 5.6,
+        "status": "hot",
+        "asOf": "Live GeckoTerminal"
+      },
+      {
+        "keyword": "POMPOM",
+        "pools7d": 1,
+        "copiesCount": 0,
+        "volume24hUsd": 3514537,
+        "leadSymbol": "Pompom",
+        "leadChange24h": 396,
+        "status": "hot",
+        "asOf": "Live GeckoTerminal"
+      },
+      {
+        "keyword": "ANSEM",
+        "pools7d": 1,
+        "copiesCount": 0,
+        "volume24hUsd": 1248796,
+        "leadSymbol": "ANSEM",
+        "leadChange24h": -10.6,
+        "status": "hot",
+        "asOf": "Live GeckoTerminal"
+      },
+      {
+        "keyword": "4CHAN",
+        "pools7d": 1,
+        "copiesCount": 0,
+        "volume24hUsd": 1653697,
+        "leadSymbol": "4CHAN",
+        "leadChange24h": -85.2,
+        "status": "dead",
+        "asOf": "Live GeckoTerminal"
+      }
+    ],
+    "strategies": [
+      {
+        "id": "dip",
+        "name": "STRAT 1 · First Dip",
+        "enabled": true,
+        "trades": 0,
+        "winRate": 0,
+        "netUsd": 0,
+        "ruleSummary": "age 10m–6h · liq $20K+ · live dip with sells <= 1.5x buys",
+        "neverSummary": "Never copy thin pools, top buyer >30% of 1h vol, or crash >35%"
+      },
+      {
+        "id": "news",
+        "name": "STRAT 2 · News to Token",
+        "enabled": true,
+        "trades": 0,
+        "winRate": 0,
+        "netUsd": 0,
+        "ruleSummary": "Real source <6h · highest-liq pool in group · half size · 45m time stop",
+        "neverSummary": "Disabled in RED for non-crypto stories; never chase paid callers"
+      },
+      {
+        "id": "copy",
+        "name": "STRAT 3 · Copy Smart Wallets",
+        "enabled": false,
+        "trades": 0,
+        "winRate": 0,
+        "netUsd": 0,
+        "ruleSummary": "7d & 30d green leaderboard traders · 30s delay · half size · our own -25% stop",
+        "neverSummary": "Off by default and off in RED; max 2 traders; never copy old swaps"
+      },
+      {
+        "id": "grad",
+        "name": "STRAT 4 · Fresh Graduation",
+        "enabled": true,
+        "trades": 0,
+        "winRate": 0,
+        "netUsd": 0,
+        "ruleSummary": "PumpSwap migration + 10m wait · curve_min >= 10m · creator didn’t sell",
+        "neverSummary": "Never buy first 10 sniper minutes or curves filled under 10 min"
+      },
+      {
+        "id": "wave",
+        "name": "STRAT 5 · Second Wave",
+        "enabled": true,
+        "trades": 0,
+        "winRate": 0,
+        "netUsd": 0,
+        "ruleSummary": "Live trending momentum continuation · volume & holders expanding",
+        "neverSummary": "Never enter if liq dropped under $20K or creator sold between waves"
+      },
+      {
+        "id": "red",
+        "name": "STRAT 6 · RED Market Overlay",
+        "enabled": true,
+        "autoOnly": true,
+        "trades": 0,
+        "winRate": 0,
+        "netUsd": 0,
+        "ruleSummary": "Auto-triggers when BTC/SOL dump or Fear & Greed <= 20 · half size · 1.5x take · 20% trail",
+        "neverSummary": "Max 1 open position · 90m time stop · night stop -10% · no news/copy"
+      },
+      {
+        "id": "trend",
+        "name": "STRAT 7 · Slow Trend",
+        "enabled": true,
+        "trades": 0,
+        "winRate": 0,
+        "netUsd": 0,
+        "ruleSummary": "age 2h+ · vol 1h $500K+ · liq $100K+ · max 5m candle <= 15%",
+        "neverSummary": "Never buy if vol falls 2h straight or top 10 grows while price rises"
+      }
+    ],
+    "liveScreen": {
+      "updatedAt": 1795671083499,
+      "activeBot": "executor",
+      "actionLabel": "Executor · PAPER Buy JIMMY ($15.00)",
+      "targetButton": "primary",
+      "cursorX": 76,
+      "cursorY": 74,
+      "clicking": true,
+      "coinSymbol": "JIMMY",
+      "coinName": "Jimmy Rustles",
+      "coinMint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
+      "coinPriceUsd": 0.0008173,
+      "coinChange24h": -50.8,
+      "coinMcap": "$763.2K",
+      "coinLiquidity": "$80.4K",
+      "coinHolders": "12,934",
+      "coinTop10": "16.4%",
+      "tab": "Buy",
+      "amountText": "15.00",
+      "quoteLine": "18.1K JIMMY",
+      "feeLine": "$0.30 fee",
+      "primaryButtonText": "Buy JIMMY",
+      "activityToast": "PAPER mode active · simulated fills on live Solana data",
+      "lastOrderSummary": "PAPER Bought JIMMY · $15.00 · verified",
+      "lastOrderChecks": {
+        "screen": true,
+        "api": "paper",
+        "chain": "paper"
+      },
+      "privatePaused": false
+    },
+    "settings": {
+      "min_liquidity_usd": 20000,
+      "max_top10_pct": 25,
+      "max_h1_change_pct": 200,
+      "min_pool_age_min": 10,
+      "min_holders_growth_pct": 0,
+      "max_dev_pct": 5,
+      "min_lp_locked_pct": 99,
+      "max_bundled": 5,
+      "min_score": 70,
+      "social_weight": 0.5,
+      "risk_per_trade_pct": 3,
+      "full_size_score": 80,
+      "below_full_pct": 50,
+      "max_pool_pct": 2,
+      "max_ticket_usd": 25,
+      "max_trades_night": 30,
+      "dip_pct": 15,
+      "crash_pct": 35,
+      "dip_wait_min": 30,
+      "tp_x": 2,
+      "tp_sell_pct": 50,
+      "trail_pct": 40,
+      "stop_pct": 25,
+      "timeout_h": 3,
+      "timeout_min_gain_pct": 5,
+      "night_loss_stop_pct": 30,
+      "red_btc_h1_pct": 2.5,
+      "red_sol_h1_pct": 4,
+      "red_fear_index": 20,
+      "red_tp_x": 1.5,
+      "red_trail_pct": 20,
+      "red_night_stop_pct": 10,
+      "paper_start_cash": 250,
+      "fomo_handle": "overnight_trader",
+      "fomo_solana_address": "",
+      "withdraw_address": "",
+      "night_start": "22:00",
+      "lock_time": "06:30",
+      "report_time": "08:00",
+      "new_buys_stopped": false
+    },
+    "changeLog": [
+      {
+        "id": "cl_17ce395b",
+        "ts": 1795671083499,
+        "key": "mode",
+        "oldVal": "LIVE",
+        "newVal": "PAPER",
+        "who": "me"
+      },
+      {
+        "id": "cl_ed2dbd32",
+        "ts": 1795671083489,
+        "key": "mode",
+        "oldVal": "PAPER",
+        "newVal": "LIVE",
+        "who": "me"
+      },
+      {
+        "id": "cl_2324d402",
+        "ts": 1795671060926,
+        "key": "engine",
+        "oldVal": "init",
+        "newVal": "live-solana-data",
+        "who": "desk"
+      }
+    ],
+    "morningReport": {
+      "dateStr": "2026-11-26",
+      "mode": "PAPER",
+      "marketMode": "RED",
+      "startEquity": 250,
+      "endEquity": 249.78,
+      "netPnlUsd": -0.22,
+      "netPnlPct": -0.09,
+      "feesPaidUsd": 0,
+      "coinsSeen": 6,
+      "scannerPassed": 6,
+      "analystPassed": 3,
+      "tradesCount": 0,
+      "redTrades": [],
+      "greenTrades": [],
+      "killsByReason": [],
+      "refusalsByLayer": [
+        {
+          "layer": "Layer 3: Dev wallet",
+          "count": 1
+        },
+        {
+          "layer": "Layer 1: Mint authority",
+          "count": 1
+        },
+        {
+          "layer": "Layer 7: Bundles & Insiders",
+          "count": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Keep lesson \"grad_thin_sellers\" (top10_pct > 25) active for tomorrow night?"
+        },
+        {
+          "id": "q2",
+          "text": "Tighten green-market trailing stop from 40% to 30% based on backtest?"
+        },
+        {
+          "id": "q3",
+          "text": "Keep Copy Picks disabled while Fear & Greed remains below 20?"
+        }
+      ]
+    },
+    "lastScanTs": 1795671062498
+  },
+  "balanceHistory": [
+    {
+      "ts": 1795671000926,
+      "equity": 250
+    },
+    {
+      "ts": 1795671060926,
+      "equity": 250
+    },
+    {
+      "ts": 1795671063420,
+      "equity": 249.78,
+      "marker": {
+        "label": "Bought JIMMY · $15",
+        "tone": "green",
+        "symbol": "JIMMY"
+      }
+    },
+    {
+      "ts": 1795671078930,
+      "equity": 249.78
+    }
+  ]
+}
